@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "title": "Bolle Di Vetro — Holiday Home",
+    "description": "Discover Bolle Di Vetro: two beautiful apartments for your holiday. Book on Airbnb or Booking.com."
+  },
+  "nav": {
+    "home": "Home",
+    "apartments": "Apartments",
+    "apt1": "Apartment 1",
+    "apt2": "Apartment 2",
+    "location": "Location",
+    "booking": "Book",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bolle Di Vetro",
+    "subtitle": "Two unique apartments for your perfect holiday",
+    "cta": "Book Now"
+  },
+  "apt1": {
+    "name": "Apartment 1",
+    "tagline": "[PLACEHOLDER: Insert brief tagline for Apartment 1]",
+    "description": {
+      "title": "Description",
+      "text": "[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT1_EN: Insert your personal description of Apartment 1 in English. Describe size, style, atmosphere, guest capacity.]"
+    },
+    "gallery": {
+      "title": "Photo Gallery"
+    },
+    "services": {
+      "title": "Services and Amenities"
+    }
+  },
+  "apt2": {
+    "name": "Apartment 2",
+    "tagline": "[PLACEHOLDER: Insert brief tagline for Apartment 2]",
+    "description": {
+      "title": "Description",
+      "text": "[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT2_EN: Insert your personal description of Apartment 2 in English. Describe size, style, atmosphere, guest capacity.]"
+    },
+    "gallery": {
+      "title": "Photo Gallery"
+    },
+    "services": {
+      "title": "Services and Amenities"
+    }
+  },
+  "services": {
+    "wifi": "[PLACEHOLDER: Free Wi-Fi]",
+    "ac": "[PLACEHOLDER: Air conditioning]",
+    "kitchen": "[PLACEHOLDER: Fully equipped kitchen]",
+    "washing": "[PLACEHOLDER: Washing machine]",
+    "parking": "[PLACEHOLDER: Parking]",
+    "tv": "[PLACEHOLDER: Smart TV]",
+    "heating": "[PLACEHOLDER: Heating]",
+    "linens": "[PLACEHOLDER: Linens included]"
+  },
+  "location": {
+    "title": "Location",
+    "description": "[PLACEHOLDER — BLOCCO_POSIZIONE_EN: Describe the location of the property, context, area, how to reach it.]",
+    "pois_title": "Points of Interest",
+    "poi1": "[PLACEHOLDER: Historic center — 5 min]",
+    "poi2": "[PLACEHOLDER: Beach — 10 min]",
+    "poi3": "[PLACEHOLDER: Restaurants — 3 min]",
+    "poi4": "[PLACEHOLDER: Supermarket — 5 min]"
+  },
+  "booking": {
+    "title": "Book Your Stay",
+    "subtitle": "Choose your apartment and book on your preferred platform",
+    "airbnb": "Book on Airbnb",
+    "booking_com": "Book on Booking.com"
+  },
+  "reviews": {
+    "title": "What Our Guests Say",
+    "placeholder": "Reviews will be available soon."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "For information or special requests, do not hesitate to contact us",
+    "name_label": "Host",
+    "name": "[PLACEHOLDER — BLOCCO_CONTATTI: Host name]",
+    "phone_label": "Phone",
+    "phone": "[PLACEHOLDER: +39 XXX XXX XXXX]",
+    "email_label": "Email",
+    "email": "[PLACEHOLDER: email@example.com]"
+  },
+  "footer": {
+    "rights": "© 2026 Bolle Di Vetro. All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "gallery": {
+    "counter": "of",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "alt": {
+    "hero": "Exterior view of Bolle Di Vetro",
+    "apt1_foto1": "[PLACEHOLDER: Apartment 1 Living Room]",
+    "apt1_foto2": "[PLACEHOLDER: Apartment 1 Bedroom]",
+    "apt1_foto3": "[PLACEHOLDER: Apartment 1 Kitchen]",
+    "apt2_foto1": "[PLACEHOLDER: Apartment 2 Living Room]",
+    "apt2_foto2": "[PLACEHOLDER: Apartment 2 Bedroom]",
+    "apt2_foto3": "[PLACEHOLDER: Apartment 2 Terrace]"
+  }
+}

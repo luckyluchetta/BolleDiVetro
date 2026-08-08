@@ -1,0 +1,16 @@
+{
+  "name": "Bolle Di Vetro — Casa Vacanze",
+  "short_name": "Bolle Di Vetro",
+  "description": "Due appartamenti unici per la tua vacanza perfetta",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF6F1",
+  "theme_color": "#C4956A",
+  "icons": [
+    {
+      "src": "assets/img/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}

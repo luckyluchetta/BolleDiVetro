@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "title": "Bolle Di Vetro — Casa Vacanze",
+    "description": "Scopri Bolle Di Vetro: due splendidi appartamenti per le tue vacanze. Prenota su Airbnb o Booking.com."
+  },
+  "nav": {
+    "home": "Home",
+    "apartments": "Appartamenti",
+    "apt1": "Appartamento 1",
+    "apt2": "Appartamento 2",
+    "location": "Posizione",
+    "booking": "Prenota",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "Bolle Di Vetro",
+    "subtitle": "Due appartamenti unici per la tua vacanza perfetta",
+    "cta": "Prenota Ora"
+  },
+  "apt1": {
+    "name": "Appartamento 1",
+    "tagline": "[PLACEHOLDER: Inserire breve tagline per Appartamento 1]",
+    "description": {
+      "title": "Descrizione",
+      "text": "[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT1_IT: Inserire qui la descrizione personale dell'Appartamento 1 in italiano. Descrivere dimensioni, stile, atmosfera, capacità di ospiti.]"
+    },
+    "gallery": {
+      "title": "Galleria Fotografica"
+    },
+    "services": {
+      "title": "Servizi e Comfort"
+    }
+  },
+  "apt2": {
+    "name": "Appartamento 2",
+    "tagline": "[PLACEHOLDER: Inserire breve tagline per Appartamento 2]",
+    "description": {
+      "title": "Descrizione",
+      "text": "[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT2_IT: Inserire qui la descrizione personale dell'Appartamento 2 in italiano. Descrivere dimensioni, stile, atmosfera, capacità di ospiti.]"
+    },
+    "gallery": {
+      "title": "Galleria Fotografica"
+    },
+    "services": {
+      "title": "Servizi e Comfort"
+    }
+  },
+  "services": {
+    "wifi": "[PLACEHOLDER: Wi-Fi gratuito]",
+    "ac": "[PLACEHOLDER: Aria condizionata]",
+    "kitchen": "[PLACEHOLDER: Cucina attrezzata]",
+    "washing": "[PLACEHOLDER: Lavatrice]",
+    "parking": "[PLACEHOLDER: Parcheggio]",
+    "tv": "[PLACEHOLDER: Smart TV]",
+    "heating": "[PLACEHOLDER: Riscaldamento]",
+    "linens": "[PLACEHOLDER: Biancheria inclusa]"
+  },
+  "location": {
+    "title": "Posizione",
+    "description": "[PLACEHOLDER — BLOCCO_POSIZIONE_IT: Descrivere la posizione della struttura, il contesto, la zona, come raggiungerla.]",
+    "pois_title": "Punti di Interesse",
+    "poi1": "[PLACEHOLDER: Centro storico — 5 min]",
+    "poi2": "[PLACEHOLDER: Spiaggia — 10 min]",
+    "poi3": "[PLACEHOLDER: Ristoranti — 3 min]",
+    "poi4": "[PLACEHOLDER: Supermercato — 5 min]"
+  },
+  "booking": {
+    "title": "Prenota il Tuo Soggiorno",
+    "subtitle": "Scegli l'appartamento e prenota sulla piattaforma che preferisci",
+    "airbnb": "Prenota su Airbnb",
+    "booking_com": "Prenota su Booking.com"
+  },
+  "reviews": {
+    "title": "Cosa Dicono i Nostri Ospiti",
+    "placeholder": "Le recensioni saranno disponibili a breve."
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Per informazioni o richieste speciali, non esitare a contattarci",
+    "name_label": "Host",
+    "name": "[PLACEHOLDER — BLOCCO_CONTATTI: Nome dell'host]",
+    "phone_label": "Telefono",
+    "phone": "[PLACEHOLDER: +39 XXX XXX XXXX]",
+    "email_label": "Email",
+    "email": "[PLACEHOLDER: email@esempio.com]"
+  },
+  "footer": {
+    "rights": "© 2026 Bolle Di Vetro. Tutti i diritti riservati.",
+    "privacy": "Privacy Policy"
+  },
+  "gallery": {
+    "counter": "di",
+    "close": "Chiudi",
+    "prev": "Precedente",
+    "next": "Successiva"
+  },
+  "alt": {
+    "hero": "Vista esterna di Bolle Di Vetro",
+    "apt1_foto1": "[PLACEHOLDER: Soggiorno Appartamento 1]",
+    "apt1_foto2": "[PLACEHOLDER: Camera Appartamento 1]",
+    "apt1_foto3": "[PLACEHOLDER: Cucina Appartamento 1]",
+    "apt2_foto1": "[PLACEHOLDER: Soggiorno Appartamento 2]",
+    "apt2_foto2": "[PLACEHOLDER: Camera Appartamento 2]",
+    "apt2_foto3": "[PLACEHOLDER: Terrazza Appartamento 2]"
+  }
+}
