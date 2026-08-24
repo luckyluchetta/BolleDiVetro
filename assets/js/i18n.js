@@ -65,7 +65,7 @@
       },
       "location": {
         "title": "Posizione",
-        "description": "La struttura è di fronte ai giardini della Reggia di Venaria, dista circa 5 min di auto dall'Allianz Stadium ed è ben collegata con la rete di trasporto pubblico.",
+        "description": "La struttura è di fronte ai giardini della Reggia di Venaria (il segnaposto sulla mappa indica la zona della Reggia, gli appartamenti si trovano in un raggio di 200-300 metri), dista circa 5 min di auto dall'Allianz Stadium ed è ben collegata con la rete di trasporto pubblico.",
         "pois_title": "Punti di Interesse",
         "poi1": "Centro storico — 5 min",
         "poi2": "Ingresso Reggia di Venaria — 10 min a piedi",
@@ -91,7 +91,7 @@
       "footer": {
         "rights": "© 2026 Bolle Di Vetro. Tutti i diritti riservati.",
         "privacy": "Privacy Policy",
-        "verified": "Struttura verificata"
+        "verified": "Struttura verificata PayTourist"
       },
       "gallery": {
         "counter": "di",
@@ -177,7 +177,7 @@
       },
       "location": {
         "title": "Location",
-        "description": "The property is located opposite the gardens of the Reggia di Venaria, about a 5-minute drive from the Allianz Stadium, and is well connected to the public transport network.",
+        "description": "The property is located opposite the gardens of the Reggia di Venaria (the map pin indicates the area of the Reggia, while the apartments are located within a 200-300 meter radius), about a 5-minute drive from the Allianz Stadium, and is well connected to the public transport network.",
         "pois_title": "Points of Interest",
         "poi1": "Historic center — 5 min",
         "poi2": "Reggia di Venaria entrance — 10 min walk",
@@ -203,7 +203,7 @@
       "footer": {
         "rights": "© 2026 Bolle Di Vetro. All rights reserved.",
         "privacy": "Privacy Policy",
-        "verified": "Verified property"
+        "verified": "Verified property PayTourist"
       },
       "gallery": {
         "counter": "of",

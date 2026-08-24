@@ -55,7 +55,7 @@
   },
   "location": {
     "title": "Location",
-    "description": "The property is located opposite the gardens of the Reggia di Venaria, about a 5-minute drive from the Allianz Stadium, and is well connected to the public transport network.",
+    "description": "The property is located opposite the gardens of the Reggia di Venaria (the map pin indicates the area of the Reggia, while the apartments are located within a 200-300 meter radius), about a 5-minute drive from the Allianz Stadium, and is well connected to the public transport network.",
     "pois_title": "Points of Interest",
     "poi1": "Historic center — 5 min",
     "poi2": "Reggia di Venaria entrance — 10 min walk",
@@ -81,7 +81,7 @@
   "footer": {
     "rights": "© 2026 Bolle Di Vetro. All rights reserved.",
     "privacy": "Privacy Policy",
-    "verified": "Verified property"
+    "verified": "Verified property PayTourist"
   },
   "gallery": {
     "counter": "of",
