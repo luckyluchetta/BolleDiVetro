@@ -1,0 +1,56 @@
+Questo documento serve per l'inserimento guidato dei blocchi di testo al posto dei placeholder lasciati. L'ordine e i nomi dei placeholders riprendono quelli usati in lang/.
+
+"apt1": {
+    "name": "Bolle di Vetro 1",
+    "tagline": DA ELIMINARE,
+    "description": {
+      "title": "Descrizione",
+      "text": "Grazioso appartamento in villino a due passi dalla Reggia di Venaria e dal centro storico di Venaria Reale, a 5 minuti d'auto dall’Allianz Stadium.Comodoa tutti i servizi essenziali. L’ appartamento situato al piano terreno, è composto da cucina (con parete attrezzata, tavolo, divano letto, frigo, forno e TV), camera da letto matrimoniale e ampio bagno finestrato.
+L’appartamento affaccia su un grande cortile con giardino ad uso esclusivo dove rilassarsi in assoluta tranquillità."
+    },
+
+Per la galleria, troverai nella root directory una cartella chiamata "apt1Gallery". inserisci tu le foto presenti al posto delle immagini stock dell'appartamento 1.
+
+"apt2": {
+    "name": "Bolle di Vetro 2",
+    "tagline": DA ELIMINARE,
+    "description": {
+      "title": "Descrizione",
+      "text": "Luminoso appartamento in villino a due passi dalla Reggia di Venaria  e dal suo centro storico pedonale e dista 5 min. di auto dall’ Allianz Stadium.
+      Comodo a tutti i servizi essenziali.
+      L’ appartamento al primo piano  è composto da un ampia cucina (con parete  attrezzata, tavolo, divano letto, frigo, microonde, mobile TV), da due camere da letto matrimoniali e ampio bagno con box doccia e lavatrice. L’appartamento dispone di un terrazzino che affaccia  su un grande cortile con giardino privato"
+    },
+
+Per la galleria, troverai nella root directory una cartella chiamata "apt2Gallery". inserisci tu le foto presenti al posto delle immagini stock dell'appartamento 2.
+
+"services": {
+    "wifi": "Wi-Fi",
+    "ac": "Telecamere esterne",  #DA CAMBIARE ICONA, sostituire l'icona presente con una icona di telecamera.
+    "kitchen": "Cucina attrezzata",
+    "washing": "Lavatrice",
+    "parking": "Parcheggio a pagamento in loco",
+    "tv": "TV",
+    "heating": "Riscaldamento",
+    "linens": "Servizi di base : Asciugamani, lenzuola, sapone e carta igienica"
+  },
+
+ "location": {
+    "title": "Posizione",
+    "description": "La struttura è di fronte ai giardini della Reggia di Venaria, dista circa 5 min di auto dall'Allianz Stadium ed è ben collegata con la rete di trasporto pubblico",
+    "pois_title": "Punti di Interesse",
+    "poi1": "Centro storico — 5 min",
+    "poi2": "Ingresso Reggia di Venaria — 10 min a piedi",
+    "poi3": "Parco La Mandria, ingresso di Veneria — 10",
+  },
+
+Per iframe ricavalo te. La struttura si trova in via don sapino 7, Venaria Reale, TO
+
+"contact": {
+    "title": "Contattaci",
+    "subtitle": "Per informazioni o richieste speciali, non esitare a contattarci",
+    "name_label": "Host",
+    "name": "Mario Giovanni",
+    "phone_label": "Telefono",
+    "phone": "+39 347 112 9517",
+    "email_label": "Email",
+    "email": "lucky.mario@libero.it"
