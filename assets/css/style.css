@@ -386,7 +386,7 @@ img {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background: url('../img/hero.jpg') center/cover no-repeat fixed;
+  background: url('../img/hero.jpg') center/cover no-repeat;
 }
 
 .hero__overlay {
@@ -773,7 +773,8 @@ img {
 .services__icon svg {
   width: 28px;
   height: 28px;
-  fill: currentColor;
+  fill: none;
+  stroke: currentColor;
 }
 
 .services__item span {
@@ -930,20 +931,17 @@ img {
 
 /* 16. Contact */
 .contact__grid {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   max-width: 800px;
   margin: 2rem auto;
 }
 
-@media (min-width: 768px) {
-  .contact__grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 .contact__card {
+  flex: 1 1 280px;
+  max-width: 360px;
   text-align: center;
   padding: 2rem;
   background: var(--color-white);
@@ -958,7 +956,8 @@ img {
 .contact__card svg {
   width: 32px;
   height: 32px;
-  fill: var(--color-primary);
+  fill: none;
+  stroke: var(--color-primary);
 }
 
 .contact__card a, .contact__card p {
