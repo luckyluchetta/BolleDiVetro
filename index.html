@@ -44,6 +44,10 @@
     "image": "https://example.com/assets/img/og-image.jpg",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Via Don Sapino 7",
+      "addressLocality": "Venaria Reale",
+      "postalCode": "10078",
+      "addressRegion": "TO",
       "addressCountry": "IT"
     },
     "numberOfRooms": 2,
@@ -109,14 +113,12 @@
     <section id="apt1" class="section apartment">
       <div class="section__inner">
         <div class="section__divider"><span></span></div>
-        <h2 class="section__title" data-i18n="apt1.name">Appartamento 1</h2>
-        <p class="section__tagline" data-i18n="apt1.tagline">[PLACEHOLDER: Inserire breve tagline per Appartamento 1]</p>
+        <h2 class="section__title" data-i18n="apt1.name">Bolle di Vetro 1</h2>
 
         <div class="apartment__description fade-in">
           <h3 data-i18n="apt1.description.title">Descrizione</h3>
-          <!-- BLOCCO_DESCRIZIONE_APT1_IT -->
           <div class="desc-block" data-lang-block="it">
-            <p data-i18n="apt1.description.text">[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT1_IT: Inserire qui la descrizione personale dell'Appartamento 1 in italiano. Descrivere dimensioni, stile, atmosfera, capacità di ospiti.]</p>
+            <p data-i18n="apt1.description.text">Grazioso appartamento in villino a due passi dalla Reggia di Venaria e dal centro storico di Venaria Reale, a 5 minuti d'auto dall'Allianz Stadium. Comodo a tutti i servizi essenziali. L'appartamento situato al piano terreno, è composto da cucina (con parete attrezzata, tavolo, divano letto, frigo, forno e TV), camera da letto matrimoniale e ampio bagno finestrato. L'appartamento affaccia su un grande cortile con giardino ad uso esclusivo dove rilassarsi in assoluta tranquillità.</p>
           </div>
           <!-- BLOCCO_DESCRIZIONE_APT1_EN -->
           <!-- La versione EN verrà caricata da i18n.js -->
@@ -134,12 +136,24 @@
             <div class="gallery__item">
               <img src="assets/img/gallery/apt1/foto-03.jpg" alt="" data-i18n-alt="alt.apt1_foto3" loading="lazy" class="gallery__img">
             </div>
-            <!-- Aggiungere altre foto qui: copiare il div gallery__item e aggiornare src e data-i18n-alt -->
-            <!--
             <div class="gallery__item">
               <img src="assets/img/gallery/apt1/foto-04.jpg" alt="" data-i18n-alt="alt.apt1_foto4" loading="lazy" class="gallery__img">
             </div>
-            -->
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt1/foto-05.jpg" alt="" data-i18n-alt="alt.apt1_foto5" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt1/foto-06.jpg" alt="" data-i18n-alt="alt.apt1_foto6" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt1/foto-07.jpg" alt="" data-i18n-alt="alt.apt1_foto7" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt1/foto-08.jpg" alt="" data-i18n-alt="alt.apt1_foto8" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt1/foto-09.jpg" alt="" data-i18n-alt="alt.apt1_foto9" loading="lazy" class="gallery__img">
+            </div>
           </div>
         </div>
 
@@ -151,49 +165,49 @@
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
               </div>
-              <span data-i18n="services.wifi">[PLACEHOLDER: Wi-Fi gratuito]</span>
+              <span data-i18n="services.wifi">Wi-Fi</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
-                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"></path><path d="M12 2v20"></path><path d="M20 16l-4-4 4-4"></path><path d="M4 8l4 4-4 4"></path><path d="M16 4l-4 4-4-4"></path><path d="M8 20l4-4 4 4"></path></svg>
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
               </div>
-              <span data-i18n="services.ac">[PLACEHOLDER: Aria condizionata]</span>
+              <span data-i18n="services.ac">Telecamere esterne</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path><line x1="6" y1="17" x2="18" y2="17"></line></svg>
               </div>
-              <span data-i18n="services.kitchen">[PLACEHOLDER: Cucina attrezzata]</span>
+              <span data-i18n="services.kitchen">Cucina attrezzata</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><circle cx="12" cy="13" r="4"></circle><line x1="12" y1="13" x2="12" y2="13"></line><line x1="8" y1="7" x2="16" y2="7"></line></svg>
               </div>
-              <span data-i18n="services.washing">[PLACEHOLDER: Lavatrice]</span>
+              <span data-i18n="services.washing">Lavatrice</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><path d="M9 16V8h4a2 2 0 0 1 0 4H9"></path></svg>
               </div>
-              <span data-i18n="services.parking">[PLACEHOLDER: Parcheggio]</span>
+              <span data-i18n="services.parking">Parcheggio a pagamento in loco</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
               </div>
-              <span data-i18n="services.tv">[PLACEHOLDER: Smart TV]</span>
+              <span data-i18n="services.tv">TV</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
               </div>
-              <span data-i18n="services.heating">[PLACEHOLDER: Riscaldamento]</span>
+              <span data-i18n="services.heating">Riscaldamento</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"></path><path d="M2 8h18a2 2 0 0 1 2 2v10"></path><path d="M2 17h20"></path><path d="M6 8v9"></path></svg>
               </div>
-              <span data-i18n="services.linens">[PLACEHOLDER: Biancheria inclusa]</span>
+              <span data-i18n="services.linens">Servizi di base: asciugamani, lenzuola, sapone e carta igienica</span>
             </div>
           </div>
         </div>
@@ -203,14 +217,12 @@
     <section id="apt2" class="section apartment apartment--alt">
       <div class="section__inner">
         <div class="section__divider"><span></span></div>
-        <h2 class="section__title" data-i18n="apt2.name">Appartamento 2</h2>
-        <p class="section__tagline" data-i18n="apt2.tagline">[PLACEHOLDER: Inserire breve tagline per Appartamento 2]</p>
+        <h2 class="section__title" data-i18n="apt2.name">Bolle di Vetro 2</h2>
 
         <div class="apartment__description fade-in">
           <h3 data-i18n="apt2.description.title">Descrizione</h3>
-          <!-- BLOCCO_DESCRIZIONE_APT2_IT -->
           <div class="desc-block" data-lang-block="it">
-            <p data-i18n="apt2.description.text">[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT2_IT: Inserire qui la descrizione personale dell'Appartamento 2 in italiano. Descrivere dimensioni, stile, atmosfera, capacità di ospiti.]</p>
+            <p data-i18n="apt2.description.text">Luminoso appartamento in villino a due passi dalla Reggia di Venaria e dal suo centro storico pedonale e dista 5 min. di auto dall'Allianz Stadium. Comodo a tutti i servizi essenziali. L'appartamento al primo piano è composto da un'ampia cucina (con parete attrezzata, tavolo, divano letto, frigo, microonde, mobile TV), da due camere da letto matrimoniali e ampio bagno con box doccia e lavatrice. L'appartamento dispone di un terrazzino che affaccia su un grande cortile con giardino privato.</p>
           </div>
           <!-- BLOCCO_DESCRIZIONE_APT2_EN -->
         </div>
@@ -224,7 +236,24 @@
             <div class="gallery__item">
               <img src="assets/img/gallery/apt2/foto-02.jpg" alt="" data-i18n-alt="alt.apt2_foto2" loading="lazy" class="gallery__img">
             </div>
-            <!-- Aggiungere altre foto qui: copiare il div gallery__item e aggiornare src e data-i18n-alt -->
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt2/foto-03.jpg" alt="" data-i18n-alt="alt.apt2_foto3" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt2/foto-04.jpg" alt="" data-i18n-alt="alt.apt2_foto4" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt2/foto-05.jpg" alt="" data-i18n-alt="alt.apt2_foto5" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt2/foto-06.jpg" alt="" data-i18n-alt="alt.apt2_foto6" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt2/foto-07.jpg" alt="" data-i18n-alt="alt.apt2_foto7" loading="lazy" class="gallery__img">
+            </div>
+            <div class="gallery__item">
+              <img src="assets/img/gallery/apt2/foto-08.jpg" alt="" data-i18n-alt="alt.apt2_foto8" loading="lazy" class="gallery__img">
+            </div>
           </div>
         </div>
 
@@ -236,49 +265,49 @@
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
               </div>
-              <span data-i18n="services.wifi">[PLACEHOLDER: Wi-Fi gratuito]</span>
+              <span data-i18n="services.wifi">Wi-Fi</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
-                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"></path><path d="M12 2v20"></path><path d="M20 16l-4-4 4-4"></path><path d="M4 8l4 4-4 4"></path><path d="M16 4l-4 4-4-4"></path><path d="M8 20l4-4 4 4"></path></svg>
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
               </div>
-              <span data-i18n="services.ac">[PLACEHOLDER: Aria condizionata]</span>
+              <span data-i18n="services.ac">Telecamere esterne</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path><line x1="6" y1="17" x2="18" y2="17"></line></svg>
               </div>
-              <span data-i18n="services.kitchen">[PLACEHOLDER: Cucina attrezzata]</span>
+              <span data-i18n="services.kitchen">Cucina attrezzata</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><circle cx="12" cy="13" r="4"></circle><line x1="12" y1="13" x2="12" y2="13"></line><line x1="8" y1="7" x2="16" y2="7"></line></svg>
               </div>
-              <span data-i18n="services.washing">[PLACEHOLDER: Lavatrice]</span>
+              <span data-i18n="services.washing">Lavatrice</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><path d="M9 16V8h4a2 2 0 0 1 0 4H9"></path></svg>
               </div>
-              <span data-i18n="services.parking">[PLACEHOLDER: Parcheggio]</span>
+              <span data-i18n="services.parking">Parcheggio a pagamento in loco</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
               </div>
-              <span data-i18n="services.tv">[PLACEHOLDER: Smart TV]</span>
+              <span data-i18n="services.tv">TV</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
               </div>
-              <span data-i18n="services.heating">[PLACEHOLDER: Riscaldamento]</span>
+              <span data-i18n="services.heating">Riscaldamento</span>
             </div>
             <div class="services__item">
               <div class="services__icon">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"></path><path d="M2 8h18a2 2 0 0 1 2 2v10"></path><path d="M2 17h20"></path><path d="M6 8v9"></path></svg>
               </div>
-              <span data-i18n="services.linens">[PLACEHOLDER: Biancheria inclusa]</span>
+              <span data-i18n="services.linens">Servizi di base: asciugamani, lenzuola, sapone e carta igienica</span>
             </div>
           </div>
         </div>
@@ -292,34 +321,25 @@
         
         <div class="location__grid">
           <div class="location__map fade-in">
-            <!-- BLOCCO_MAPPA: Sostituire l'URL src dell'iframe con le coordinate reali della proprietà -->
-            <!-- <iframe src="URL_EMBED_GOOGLE_MAPS" width="100%" height="400" style="border:0;border-radius:12px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mappa"></iframe> -->
-            <div style="width: 100%; height: 400px; border-radius: 12px; background-color: #eee; display: flex; align-items: center; justify-content: center; color: #666; font-style: italic;">
-              Mappa Google Maps (Sostituire questo div con l'iframe reale)
-            </div>
+            <iframe src="https://maps.google.com/maps?q=Via+Don+Sapino+7,+10078+Venaria+Reale+TO,+Italy&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style="border:0;border-radius:12px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mappa — Via Don Sapino 7, Venaria Reale"></iframe>
           </div>
           
           <div class="location__info fade-in">
-            <!-- BLOCCO_POSIZIONE_IT / BLOCCO_POSIZIONE_EN -->
-            <p data-i18n="location.description">[PLACEHOLDER: Descrivere la posizione della struttura, il contesto, la zona, come raggiungerla.]</p>
+            <p data-i18n="location.description">La struttura è di fronte ai giardini della Reggia di Venaria, dista circa 5 min di auto dall'Allianz Stadium ed è ben collegata con la rete di trasporto pubblico.</p>
             
             <h4 data-i18n="location.pois_title">Punti di Interesse</h4>
             <ul class="location__pois">
               <li>
                 <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                <span data-i18n="location.poi1">[PLACEHOLDER: Centro storico — 5 min]</span>
+                <span data-i18n="location.poi1">Centro storico — 5 min</span>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                <span data-i18n="location.poi2">[PLACEHOLDER: Spiaggia — 10 min]</span>
+                <span data-i18n="location.poi2">Ingresso Reggia di Venaria — 10 min a piedi</span>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                <span data-i18n="location.poi3">[PLACEHOLDER: Ristoranti — 3 min]</span>
-              </li>
-              <li>
-                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                <span data-i18n="location.poi4">[PLACEHOLDER: Supermercato — 5 min]</span>
+                <span data-i18n="location.poi3">Parco La Mandria, ingresso di Venaria — 10 min</span>
               </li>
             </ul>
           </div>
@@ -362,14 +382,13 @@
         <h2 class="section__title" data-i18n="contact.title">Contattaci</h2>
         <p class="section__subtitle" data-i18n="contact.subtitle">Per informazioni o richieste speciali, non esitare a contattarci</p>
         
-        <!-- BLOCCO_CONTATTI: Sostituire i placeholder con i dati reali di contatto -->
         <div class="contact__grid fade-in">
           <div class="contact__card">
             <div class="contact__icon">
               <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
             </div>
             <span class="contact__label" data-i18n="contact.name_label">Host</span>
-            <span class="contact__value" data-i18n="contact.name">[PLACEHOLDER — BLOCCO_CONTATTI: Nome dell'host]</span>
+            <span class="contact__value" data-i18n="contact.name">Mario Giovanni</span>
           </div>
           
           <div class="contact__card">
@@ -377,7 +396,7 @@
               <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             </div>
             <span class="contact__label" data-i18n="contact.phone_label">Telefono</span>
-            <a href="tel:+390000000000" class="contact__value" data-i18n="contact.phone">[PLACEHOLDER: +39 XXX XXX XXXX]</a>
+            <a href="tel:+393471129517" class="contact__value" data-i18n="contact.phone">+39 347 112 9517</a>
           </div>
           
           <div class="contact__card">
@@ -385,7 +404,7 @@
               <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
             </div>
             <span class="contact__label" data-i18n="contact.email_label">Email</span>
-            <a href="mailto:email@esempio.com" class="contact__value" data-i18n="contact.email">[PLACEHOLDER: email@esempio.com]</a>
+            <a href="mailto:lucky.mario@libero.it" class="contact__value" data-i18n="contact.email">lucky.mario@libero.it</a>
           </div>
         </div>
       </div>

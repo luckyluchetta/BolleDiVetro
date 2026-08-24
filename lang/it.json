@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "Bolle Di Vetro — Casa Vacanze",
-    "description": "Scopri Bolle Di Vetro: due splendidi appartamenti per le tue vacanze. Prenota su Airbnb o Booking.com."
+    "description": "Scopri Bolle Di Vetro: due splendidi appartamenti per le tue vacanze a Venaria Reale, a due passi dalla Reggia. Prenota su Airbnb o Booking.com."
   },
   "nav": {
     "home": "Home",
     "apartments": "Appartamenti",
-    "apt1": "Appartamento 1",
-    "apt2": "Appartamento 2",
+    "apt1": "Bolle di Vetro 1",
+    "apt2": "Bolle di Vetro 2",
     "location": "Posizione",
     "booking": "Prenota",
     "contact": "Contatti"
@@ -15,14 +15,13 @@
   "hero": {
     "title": "Bolle Di Vetro",
     "subtitle": "Due appartamenti unici per la tua vacanza perfetta",
-    "cta": "Prenota Ora"
+    "cta": "Contattaci"
   },
   "apt1": {
-    "name": "Appartamento 1",
-    "tagline": "[PLACEHOLDER: Inserire breve tagline per Appartamento 1]",
+    "name": "Bolle di Vetro 1",
     "description": {
       "title": "Descrizione",
-      "text": "[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT1_IT: Inserire qui la descrizione personale dell'Appartamento 1 in italiano. Descrivere dimensioni, stile, atmosfera, capacità di ospiti.]"
+      "text": "Grazioso appartamento in villino a due passi dalla Reggia di Venaria e dal centro storico di Venaria Reale, a 5 minuti d'auto dall'Allianz Stadium. Comodo a tutti i servizi essenziali. L'appartamento situato al piano terreno, è composto da cucina (con parete attrezzata, tavolo, divano letto, frigo, forno e TV), camera da letto matrimoniale e ampio bagno finestrato. L'appartamento affaccia su un grande cortile con giardino ad uso esclusivo dove rilassarsi in assoluta tranquillità."
     },
     "gallery": {
       "title": "Galleria Fotografica"
@@ -32,11 +31,10 @@
     }
   },
   "apt2": {
-    "name": "Appartamento 2",
-    "tagline": "[PLACEHOLDER: Inserire breve tagline per Appartamento 2]",
+    "name": "Bolle di Vetro 2",
     "description": {
       "title": "Descrizione",
-      "text": "[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT2_IT: Inserire qui la descrizione personale dell'Appartamento 2 in italiano. Descrivere dimensioni, stile, atmosfera, capacità di ospiti.]"
+      "text": "Luminoso appartamento in villino a due passi dalla Reggia di Venaria e dal suo centro storico pedonale e dista 5 min. di auto dall'Allianz Stadium. Comodo a tutti i servizi essenziali. L'appartamento al primo piano è composto da un'ampia cucina (con parete attrezzata, tavolo, divano letto, frigo, microonde, mobile TV), da due camere da letto matrimoniali e ampio bagno con box doccia e lavatrice. L'appartamento dispone di un terrazzino che affaccia su un grande cortile con giardino privato."
     },
     "gallery": {
       "title": "Galleria Fotografica"
@@ -46,23 +44,22 @@
     }
   },
   "services": {
-    "wifi": "[PLACEHOLDER: Wi-Fi gratuito]",
-    "ac": "[PLACEHOLDER: Aria condizionata]",
-    "kitchen": "[PLACEHOLDER: Cucina attrezzata]",
-    "washing": "[PLACEHOLDER: Lavatrice]",
-    "parking": "[PLACEHOLDER: Parcheggio]",
-    "tv": "[PLACEHOLDER: Smart TV]",
-    "heating": "[PLACEHOLDER: Riscaldamento]",
-    "linens": "[PLACEHOLDER: Biancheria inclusa]"
+    "wifi": "Wi-Fi",
+    "ac": "Telecamere esterne",
+    "kitchen": "Cucina attrezzata",
+    "washing": "Lavatrice",
+    "parking": "Parcheggio a pagamento in loco",
+    "tv": "TV",
+    "heating": "Riscaldamento",
+    "linens": "Servizi di base: asciugamani, lenzuola, sapone e carta igienica"
   },
   "location": {
     "title": "Posizione",
-    "description": "[PLACEHOLDER — BLOCCO_POSIZIONE_IT: Descrivere la posizione della struttura, il contesto, la zona, come raggiungerla.]",
+    "description": "La struttura è di fronte ai giardini della Reggia di Venaria, dista circa 5 min di auto dall'Allianz Stadium ed è ben collegata con la rete di trasporto pubblico.",
     "pois_title": "Punti di Interesse",
-    "poi1": "[PLACEHOLDER: Centro storico — 5 min]",
-    "poi2": "[PLACEHOLDER: Spiaggia — 10 min]",
-    "poi3": "[PLACEHOLDER: Ristoranti — 3 min]",
-    "poi4": "[PLACEHOLDER: Supermercato — 5 min]"
+    "poi1": "Centro storico — 5 min",
+    "poi2": "Ingresso Reggia di Venaria — 10 min a piedi",
+    "poi3": "Parco La Mandria, ingresso di Venaria — 10 min"
   },
   "booking": {
     "title": "Prenota il Tuo Soggiorno",
@@ -78,11 +75,11 @@
     "title": "Contattaci",
     "subtitle": "Per informazioni o richieste speciali, non esitare a contattarci",
     "name_label": "Host",
-    "name": "[PLACEHOLDER — BLOCCO_CONTATTI: Nome dell'host]",
+    "name": "Mario Giovanni",
     "phone_label": "Telefono",
-    "phone": "[PLACEHOLDER: +39 XXX XXX XXXX]",
+    "phone": "+39 347 112 9517",
     "email_label": "Email",
-    "email": "[PLACEHOLDER: email@esempio.com]"
+    "email": "lucky.mario@libero.it"
   },
   "footer": {
     "rights": "© 2026 Bolle Di Vetro. Tutti i diritti riservati.",
@@ -97,11 +94,22 @@
   },
   "alt": {
     "hero": "Vista esterna di Bolle Di Vetro",
-    "apt1_foto1": "[PLACEHOLDER: Soggiorno Appartamento 1]",
-    "apt1_foto2": "[PLACEHOLDER: Camera Appartamento 1]",
-    "apt1_foto3": "[PLACEHOLDER: Cucina Appartamento 1]",
-    "apt2_foto1": "[PLACEHOLDER: Soggiorno Appartamento 2]",
-    "apt2_foto2": "[PLACEHOLDER: Camera Appartamento 2]",
-    "apt2_foto3": "[PLACEHOLDER: Terrazza Appartamento 2]"
+    "apt1_foto1": "Bolle di Vetro 1 — Foto 1",
+    "apt1_foto2": "Bolle di Vetro 1 — Foto 2",
+    "apt1_foto3": "Bolle di Vetro 1 — Foto 3",
+    "apt1_foto4": "Bolle di Vetro 1 — Foto 4",
+    "apt1_foto5": "Bolle di Vetro 1 — Foto 5",
+    "apt1_foto6": "Bolle di Vetro 1 — Foto 6",
+    "apt1_foto7": "Bolle di Vetro 1 — Foto 7",
+    "apt1_foto8": "Bolle di Vetro 1 — Foto 8",
+    "apt1_foto9": "Bolle di Vetro 1 — Foto 9",
+    "apt2_foto1": "Bolle di Vetro 2 — Foto 1",
+    "apt2_foto2": "Bolle di Vetro 2 — Foto 2",
+    "apt2_foto3": "Bolle di Vetro 2 — Foto 3",
+    "apt2_foto4": "Bolle di Vetro 2 — Foto 4",
+    "apt2_foto5": "Bolle di Vetro 2 — Foto 5",
+    "apt2_foto6": "Bolle di Vetro 2 — Foto 6",
+    "apt2_foto7": "Bolle di Vetro 2 — Foto 7",
+    "apt2_foto8": "Bolle di Vetro 2 — Foto 8"
   }
 }
