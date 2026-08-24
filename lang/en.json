@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "Bolle Di Vetro — Holiday Home",
-    "description": "Discover Bolle Di Vetro: two beautiful apartments for your holiday. Book on Airbnb or Booking.com."
+    "description": "Discover Bolle Di Vetro: two beautiful apartments for your holiday in Venaria Reale, just steps from the Reggia. Book on Airbnb or Booking.com."
   },
   "nav": {
     "home": "Home",
     "apartments": "Apartments",
-    "apt1": "Apartment 1",
-    "apt2": "Apartment 2",
+    "apt1": "Bolle di Vetro 1",
+    "apt2": "Bolle di Vetro 2",
     "location": "Location",
     "booking": "Book",
     "contact": "Contact"
@@ -15,14 +15,13 @@
   "hero": {
     "title": "Bolle Di Vetro",
     "subtitle": "Two unique apartments for your perfect holiday",
-    "cta": "Book Now"
+    "cta": "Contact Us"
   },
   "apt1": {
-    "name": "Apartment 1",
-    "tagline": "[PLACEHOLDER: Insert brief tagline for Apartment 1]",
+    "name": "Bolle di Vetro 1",
     "description": {
       "title": "Description",
-      "text": "[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT1_EN: Insert your personal description of Apartment 1 in English. Describe size, style, atmosphere, guest capacity.]"
+      "text": "Charming apartment in a small villa, a stone's throw from the Reggia di Venaria and the historic center of Venaria Reale, a 5-minute drive from the Allianz Stadium. Convenient to all essential services. The apartment on the ground floor consists of a kitchen (with equipped wall unit, table, sofa bed, fridge, oven, and TV), a double bedroom, and a large bathroom with a window. The apartment overlooks a large courtyard with a private garden where you can relax in absolute tranquility."
     },
     "gallery": {
       "title": "Photo Gallery"
@@ -32,11 +31,10 @@
     }
   },
   "apt2": {
-    "name": "Apartment 2",
-    "tagline": "[PLACEHOLDER: Insert brief tagline for Apartment 2]",
+    "name": "Bolle di Vetro 2",
     "description": {
       "title": "Description",
-      "text": "[PLACEHOLDER — BLOCCO_DESCRIZIONE_APT2_EN: Insert your personal description of Apartment 2 in English. Describe size, style, atmosphere, guest capacity.]"
+      "text": "Bright apartment in a small villa, a stone's throw from the Reggia di Venaria and its pedestrian historic center, and a 5-minute drive from the Allianz Stadium. Convenient to all essential services. The first-floor apartment consists of a large kitchen (with equipped wall unit, table, sofa bed, fridge, microwave, TV cabinet), two double bedrooms, and a large bathroom with a shower cabin and washing machine. The apartment has a small terrace overlooking a large courtyard with a private garden."
     },
     "gallery": {
       "title": "Photo Gallery"
@@ -46,23 +44,22 @@
     }
   },
   "services": {
-    "wifi": "[PLACEHOLDER: Free Wi-Fi]",
-    "ac": "[PLACEHOLDER: Air conditioning]",
-    "kitchen": "[PLACEHOLDER: Fully equipped kitchen]",
-    "washing": "[PLACEHOLDER: Washing machine]",
-    "parking": "[PLACEHOLDER: Parking]",
-    "tv": "[PLACEHOLDER: Smart TV]",
-    "heating": "[PLACEHOLDER: Heating]",
-    "linens": "[PLACEHOLDER: Linens included]"
+    "wifi": "Wi-Fi",
+    "ac": "Outdoor security cameras",
+    "kitchen": "Fully equipped kitchen",
+    "washing": "Washing machine",
+    "parking": "Paid parking on premises",
+    "tv": "TV",
+    "heating": "Heating",
+    "linens": "Basic amenities: towels, bed sheets, soap, and toilet paper"
   },
   "location": {
     "title": "Location",
-    "description": "[PLACEHOLDER — BLOCCO_POSIZIONE_EN: Describe the location of the property, context, area, how to reach it.]",
+    "description": "The property is located opposite the gardens of the Reggia di Venaria, about a 5-minute drive from the Allianz Stadium, and is well connected to the public transport network.",
     "pois_title": "Points of Interest",
-    "poi1": "[PLACEHOLDER: Historic center — 5 min]",
-    "poi2": "[PLACEHOLDER: Beach — 10 min]",
-    "poi3": "[PLACEHOLDER: Restaurants — 3 min]",
-    "poi4": "[PLACEHOLDER: Supermarket — 5 min]"
+    "poi1": "Historic center — 5 min",
+    "poi2": "Reggia di Venaria entrance — 10 min walk",
+    "poi3": "La Mandria Park, Venaria entrance — 10 min"
   },
   "booking": {
     "title": "Book Your Stay",
@@ -78,11 +75,8 @@
     "title": "Contact Us",
     "subtitle": "For information or special requests, do not hesitate to contact us",
     "name_label": "Host",
-    "name": "[PLACEHOLDER — BLOCCO_CONTATTI: Host name]",
-    "phone_label": "Phone",
-    "phone": "[PLACEHOLDER: +39 XXX XXX XXXX]",
-    "email_label": "Email",
-    "email": "[PLACEHOLDER: email@example.com]"
+    "name": "Mario Giovanni",
+    "email_label": "Email"
   },
   "footer": {
     "rights": "© 2026 Bolle Di Vetro. All rights reserved.",
@@ -97,11 +91,22 @@
   },
   "alt": {
     "hero": "Exterior view of Bolle Di Vetro",
-    "apt1_foto1": "[PLACEHOLDER: Apartment 1 Living Room]",
-    "apt1_foto2": "[PLACEHOLDER: Apartment 1 Bedroom]",
-    "apt1_foto3": "[PLACEHOLDER: Apartment 1 Kitchen]",
-    "apt2_foto1": "[PLACEHOLDER: Apartment 2 Living Room]",
-    "apt2_foto2": "[PLACEHOLDER: Apartment 2 Bedroom]",
-    "apt2_foto3": "[PLACEHOLDER: Apartment 2 Terrace]"
+    "apt1_foto1": "Bolle di Vetro 1 — Photo 1",
+    "apt1_foto2": "Bolle di Vetro 1 — Photo 2",
+    "apt1_foto3": "Bolle di Vetro 1 — Photo 3",
+    "apt1_foto4": "Bolle di Vetro 1 — Photo 4",
+    "apt1_foto5": "Bolle di Vetro 1 — Photo 5",
+    "apt1_foto6": "Bolle di Vetro 1 — Photo 6",
+    "apt1_foto7": "Bolle di Vetro 1 — Photo 7",
+    "apt1_foto8": "Bolle di Vetro 1 — Photo 8",
+    "apt1_foto9": "Bolle di Vetro 1 — Photo 9",
+    "apt2_foto1": "Bolle di Vetro 2 — Photo 1",
+    "apt2_foto2": "Bolle di Vetro 2 — Photo 2",
+    "apt2_foto3": "Bolle di Vetro 2 — Photo 3",
+    "apt2_foto4": "Bolle di Vetro 2 — Photo 4",
+    "apt2_foto5": "Bolle di Vetro 2 — Photo 5",
+    "apt2_foto6": "Bolle di Vetro 2 — Photo 6",
+    "apt2_foto7": "Bolle di Vetro 2 — Photo 7",
+    "apt2_foto8": "Bolle di Vetro 2 — Photo 8"
   }
 }
