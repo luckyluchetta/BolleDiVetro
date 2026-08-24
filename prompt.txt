@@ -1,59 +1,16 @@
-Voglio che tu costruisca un sito web statico (HTML/CSS/JS puro, no framework backend, no database) per pubblicizzare una casa vacanze/Airbnb. Segui queste istruzioni come farebbe un senior web developer che gestisce l'intero progetto in autonomia, dall'infrastruttura ai contenuti.
-1. STACK E INFRASTRUTTURA
-HTML5, CSS3, JS vanilla (no React/Vue, deve restare leggero e facilmente editabile a mano)
-Responsive-first (mobile, tablet, desktop) — la maggior parte del traffico turistico è da mobile
-Hosting: Netlify o Vercel (piano free), NON GitHub Pages (riservato per uso personale futuro)
-Repository GitHub separato dedicato solo a questo progetto
-Setup deploy automatico: push su main → deploy automatico su Netlify/Vercel
-Predisponi un file README.md con istruzioni su come aggiornare testi/foto senza toccare il codice (per permettere modifiche future anche a chi non è dev)
-Struttura cartelle pulita: /assets/img, /assets/css, /assets/js, /pages (se multi-pagina) o sezioni in single-page
-2. LINGUE
-Sito bilingue: Italiano (default) e Inglese
-Switcher lingua visibile in header (bandierine o IT/EN)
-Predisponi struttura per aggiungere altre lingue in futuro (file di traduzione separati tipo it.json / en.json, non testo hardcoded nell'HTML dove evitabile)
-3. STRUTTURA DEL SITO (single-page con sezioni ancorate)
-Hero (foto principale + CTA "Prenota ora")
-Descrizione della casa
-Galleria foto
-Servizi/amenità (icone + lista)
-Posizione (mappa embed + punti di interesse nelle vicinanze)
-Disponibilità/Prenotazione (vedi punto 4)
-Recensioni (se disponibili, altrimenti sezione predisposta ma nascosta)
-Contatti + footer
-4. INTEGRAZIONE AIRBNB/BOOKING
-Il sito è vetrina, NON gestisce prenotazioni dirette
-Inserisci pulsanti CTA chiari "Prenota su Airbnb" e "Prenota su Booking.com" che linkano agli annunci reali
-Se tecnicamente fattibile senza backend, valuta l'embed del calendario disponibilità Airbnb (Airbnb offre un widget/iframe di calendario pubblico per gli host — verifica se disponibile per l'annuncio in questione); se non è possibile via iframe statico, non forzare soluzioni con backend: restare sui pulsanti di link esterno
-5. SEO
-Meta title e meta description ottimizzati per entrambe le lingue (uniche per pagina/lingua, non duplicate)
-Tag Open Graph e Twitter Card per anteprime social (immagine, titolo, descrizione)
-Markup Schema.org tipo LodgingBusiness o VacationRental per rich snippet Google
-Sitemap.xml e robots.txt
-Immagini con alt text descrittivi in entrambe le lingue
-URL puliti e semantici
-Performance: immagini ottimizzate/compresse, lazy loading, Lighthouse score target >90 su Performance/SEO/Accessibility
-Tag hreflang per la gestione multilingua lato SEO
-Favicon e manifest.json per PWA-readiness base
-6. CONTENUTI DA INSERIRE — BLOCCHI RISERVATI
- Per le seguenti sezioni, genera la struttura HTML/CSS completa ma lascia placeholder testuali chiaramente marcati che io andrò a sostituire manualmente:
-<!-- BLOCCO_DESCRIZIONE_CASA_IT: inserire qui descrizione personale della casa in italiano -->
-<!-- BLOCCO_DESCRIZIONE_CASA_EN: house description in English -->
-<!-- BLOCCO_SERVIZI_IT / BLOCCO_SERVIZI_EN: lista servizi/amenità -->
-<!-- BLOCCO_POSIZIONE_IT / BLOCCO_POSIZIONE_EN: descrizione zona, punti di interesse -->
-<!-- BLOCCO_CONTATTI: nome host, telefono, email -->
-<!-- BLOCCO_LINK_AIRBNB / BLOCCO_LINK_BOOKING: URL reali degli annunci -->
-Per le foto, prevedi una cartella /assets/img/gallery/ con nomi file generici numerati (foto-01.jpg, foto-02.jpg...) pronta per il caricamento delle foto reali che fornirò io.
-7. TO-DO LIST PRIORITARIA (da eseguire in quest'ordine)
-Setup repo + struttura progetto + deploy pipeline Netlify/Vercel
-Layout base responsive (mobile-first) con sezioni vuote
-Sistema di traduzione IT/EN funzionante
-Styling completo (palette colori calda/accogliente, tipografia leggibile, coerente con estetica "casa vacanze")
-Galleria foto con lightbox
-Integrazione mappa e CTA Airbnb/Booking
-Implementazione SEO completa (meta tag, schema, sitemap)
-Ottimizzazione performance e test Lighthouse
-Test cross-browser e cross-device
-Documentazione finale in README per gestione autonoma dei contenuti
-Alla fine fornisci anche un breve report di cosa hai implementato e cosa resta da fare manualmente (es. sostituzione blocchi testo, caricamento foto reali, verifica link Airbnb/Booking).
+Applica le seguenti modifiche al sito esistente, senza toccare struttura, styling o altre sezioni:
 
+1. Contatti
 
+Rimuovi completamente il numero di telefono dalla sezione contatti (sia dal blocco phone/phone_label che da qualsiasi altro punto del sito in cui compaia, inclusi eventuali link tel:)
+Offusca l'indirizzo email per proteggerlo dallo scraping automatico: invece di inserirlo come testo puro in HTML, ricomponilo via JavaScript al caricamento della pagina (es. concatenando user e domain separatamente in JS e inserendoli nel DOM solo a runtime), oppure usa la codifica HTML entity dei caratteri, in modo che non sia leggibile come stringa diretta nel sorgente HTML statico
+L'email deve restare cliccabile/funzionante per l'utente reale (link mailto: generato dinamicamente), ma non deve comparire come testo semplice nel codice sorgente
+
+2. Posizione/Mappa
+
+Modifica le coordinate usate nell'iframe/embed di Google Maps: invece del punto esatto della struttura (via Don Sapino 7), centra la mappa su un punto approssimativo a 200-300 metri di distanza (es. verso la Reggia di Venaria), mantenendo comunque la zona chiaramente riconoscibile
+Nel testo della sezione "location", mantieni il riferimento alla zona (Venaria Reale, vicinanza alla Reggia) ma non specificare il numero civico esatto
+
+Inoltre, sistema le icone dei servizi offerti. L'icona della telecamera è un quadrato pieno, troppo simile all'icona della tv oltretutto. Da sistemare inoltre quella della lavatrice e del parcheggio.
+
+Non modificare nessun altro contenuto, sezione, blocco di testo o elemento di stile già presente. Alla fine conferma quali file hai modificato.
